@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/stats_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Stats">
+    </TextView>
+
+    <GridLayout
+        android:id="@+id/stats_grid"
+        android:layout_below="@id/stats_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="12"
+        android:columnCount="2">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="HP">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Stamina">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Discovery">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="R-Hand WPN 1">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="R-Hand WPN 2">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="L-Hand WPN 1">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="L-Hand WPN 2">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="7"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Physical DEF">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="8"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Slow Poison RES">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="9"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Rapid Poison RES">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="10"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Frenzy RES">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="11"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Beasthood">
+        </TextView>
+
+        <!-- Right hand stats for each category -->
+        <TextView
+            android:id="@+id/hp_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/stamina_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/discovery_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/rh1_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/rh2_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/lh1_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/lh2_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="6"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/phys_def_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="7"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/slow_poison_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="8"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/rapid_poison_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="9"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/frenzy_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="10"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/beasthood_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="11"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/damage_reduction_title"
+        android:layout_below="@id/stats_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Damage Reduction">
+    </TextView>
+
+    <GridLayout
+        android:id="@+id/damage_reduction_grid"
+        android:layout_below="@id/damage_reduction_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="7"
+        android:columnCount="2">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Physical">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="VS Blunt">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="VS Thrust">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Blood">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Arcane">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Fire">
+        </TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Bolt">
+        </TextView>
+
+        <!-- RHS Stats-->
+
+        <TextView
+            android:id="@+id/phys_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/vs_blunt_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/vs_thrust_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/blood_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/arcane_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/fire_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/bolt_stat"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="6"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="0">
+        </TextView>
+
+    </GridLayout>
+
+
+
+    <TextView
+        android:id="@+id/rune_effect_title"
+        android:layout_below="@id/damage_reduction_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Caryll Rune Effects">
+    </TextView>
+
+    <TextView
+        android:id="@+id/rune_effect_display"
+        android:layout_below="@id/rune_effect_title"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:hint="Caryll Rune Effects Displayed Here">
+    </TextView>
+
+
+</RelativeLayout>
+
+</ScrollView>

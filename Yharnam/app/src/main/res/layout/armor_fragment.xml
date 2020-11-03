@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/armor_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Armor"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorLight">
+    </TextView>
+
+    <GridLayout
+        android:id="@+id/armor_grid"
+        android:layout_below="@id/armor_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="8"
+        android:columnCount="2">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="Head"
+            android:background="@color/colorPrimaryLight"
+            android:textColor="@color/colorLight"
+            android:gravity="center">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/head_spinner"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:spinnerMode="dialog"
+            android:entries="@array/head_armor"
+            android:gravity="center">
+        </Spinner>
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_foreground">
+        </ImageView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="Chest"
+            android:gravity="center"
+            android:background="@color/colorPrimaryLight"
+            android:textColor="@color/colorLight">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/chest_spinner"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:spinnerMode="dialog"
+            android:entries="@array/chest_armor">
+        </Spinner>
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_gravity="center"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:gravity="center"
+            android:src="@drawable/ic_launcher_foreground">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="Hands"
+            android:gravity="center"
+            android:background="@color/colorPrimaryLight"
+            android:textColor="@color/colorLight">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/hands_spinner"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:spinnerMode="dialog"
+            android:entries="@array/hand_armor"
+            android:gravity="center">
+        </Spinner>
+
+        <ImageView
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_width="210dp"
+            android:src="@drawable/ic_launcher_foreground">
+        </ImageView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:text="Legs"
+            android:gravity="center"
+            android:background="@color/colorPrimaryLight"
+            android:textColor="@color/colorLight">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/legs_spinner"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:spinnerMode="dialog"
+            android:entries="@array/leg_armor"
+            android:gravity="center">
+        </Spinner>
+
+        <ImageView
+            android:layout_row="6"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_width="210dp"
+            android:src="@drawable/ic_launcher_foreground">
+        </ImageView>
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/runes_title"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_below="@id/armor_grid"
+        android:text="Runes"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorLight">
+    </TextView>
+
+    <GridLayout
+        android:id="@+id/rune_grid"
+        android:layout_below="@id/runes_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="8"
+        android:columnCount="2">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="Rune #1"
+            android:gravity="center"
+            android:background="@color/colorPrimaryLight"
+            android:textColor="@color/colorLight">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/rune_spinner1"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:spinnerMode="dialog"
+            android:entries="@array/runes"
+            android:gravity="center">
+        </Spinner>
+
+        <ImageView
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_width="210dp"
+            android:src="@drawable/ic_launcher_foreground">
+        </ImageView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="Rune #2"
+            android:gravity="center"
+            android:background="@color/colorPrimaryLight"
+            android:textColor="@color/colorLight">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/rune_spinner2"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:spinnerMode="dialog"
+            android:entries="@array/runes"
+            android:gravity="center">
+        </Spinner>
+
+        <ImageView
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_width="210dp"
+            android:src="@drawable/ic_launcher_foreground">
+        </ImageView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="Rune #3"
+            android:gravity="center"
+            android:background="@color/colorPrimaryLight"
+            android:textColor="@color/colorLight">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/rune_spinner3"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:spinnerMode="dialog"
+            android:entries="@array/runes"
+            android:gravity="center">
+        </Spinner>
+
+        <ImageView
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_width="210dp"
+            android:src="@drawable/ic_launcher_foreground">
+        </ImageView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:text="Oath Rune"
+            android:gravity="center"
+            android:background="@color/colorPrimaryLight"
+            android:textColor="@color/colorLight">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/oath_rune_spinner"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:spinnerMode="dialog"
+            android:entries="@array/oath_rune"
+            android:gravity="center">
+        </Spinner>
+
+        <ImageView
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_width="210dp"
+            android:src="@drawable/ic_launcher_foreground">
+        </ImageView>
+
+    </GridLayout>
+
+</RelativeLayout>
+</ScrollView>

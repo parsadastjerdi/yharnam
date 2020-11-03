@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Yharnam</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Yharnam</string>
+    <string name="nav_header_subtitle">The Bloodborne Character Planner</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_build_activity">My Builds</string>
+    <string name="my_builds">My Builds</string>
+    <string name="char_builder">Character Builder</string>
+    <string name='browse_builds'>Browse Builds</string>
+    <string name="favorites">Favorites</string>
+    <string name="connect">Connect</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="zero">0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

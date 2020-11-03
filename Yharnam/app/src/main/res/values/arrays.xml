@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="right_hand_weapons">
+    <item>Bare Fists</item>
+    <item>Amygdalan Arms</item>
+    <item>Beast Claw</item>
+    <item>Beast Cutter</item>
+    <item>Beasthunter Saif</item>
+    <item>Blades of Mercy</item>
+    <item>Bloodletter</item>
+    <item>Boom Hammer</item>
+    <item>Burial Blade</item>
+    <item>Chikage</item>
+    <item>Church Pick</item>
+    <item>Holy Moonlight Sword</item>
+    <item>Hunter Axe</item>
+    <item>Kirkhammer</item>
+    <item>Kos Parasite</item>
+    <item>Logarius\' Wheel</item>
+    <item>Ludwig\'s Holy Blade</item>
+    <item>Rakuyo</item>
+    <item>Reitterpallasch</item>
+    <item>Rifle Spear</item>
+    <item>Saw Cleaver</item>
+    <item>Saw Spear</item>
+    <item>Simon\'s Bowblade</item>
+    <item>Stake Driver</item>
+    <item>Threaded Cane</item>
+    <item>Tonitrus</item>
+    <item>Whirligig Saw</item>
+</string-array>
+
+
+    <string-array name="left_hand_weapons">
+        <item>Bare Fists</item>
+        <item>Cannon</item>
+        <item>Church Cannon</item>
+        <item>Evelyn</item>
+        <item>Fist of Gratia</item>
+        <item>Flamesprayer</item>
+        <item>Gatling Gun</item>
+        <item>Hunter Blunderbuss</item>
+        <item>Hunter Pistol</item>
+        <item>Hunter\'s Torch</item>
+        <item>Loch Shield</item>
+        <item>Ludwig\'s Rifle</item>
+        <item>Piercing Rifle</item>
+        <item>Repeating Rifle</item>
+        <item>Rosmarinus</item>
+        <item>Wooden Shield</item>
+    </string-array>
+
+
+    <string-array name="origins">
+        <item>MilqueToast</item>
+        <item>Lone Survivor</item>
+        <item>Troubled Childhood</item>
+        <item>Violent Past</item>
+        <item>Professional</item>
+        <item>Military Veteran</item>
+        <item>Noble Scion</item>
+        <item>Cruel Fate</item>
+        <item>Waste of Skin</item>
+    </string-array>
+
+
+    <string-array name="head_armor">
+        <item>None</item>
+        <item>Beak Mask</item>
+        <item>Black Church Hat</item>
+        <item>Black Hood</item>
+        <item>Black Hooded Iron Helm</item>
+        <item>Blindfold Cap</item>
+        <item>Bone Ash Mask</item>
+        <item>Brador\'s Testimony</item>
+        <item>Butcher Mask</item>
+        <item>Cainhurst Helmet</item>
+        <item>Constable Helm</item>
+        <item>Crown of Illusions</item>
+        <item>Doll Hat</item>
+        <item>Enlarged Head</item>
+        <item>Gascoigne\'s Cap</item>
+        <item>Gehrman\'s Hunter Cap</item>
+        <item>Gold Ardeo</item>
+        <item>Graveyard Mask</item>
+        <item>Grey Wolf Cap</item>
+        <item>Harrowed Hood</item>
+        <item>Henryk\'s Hunter Cap</item>
+        <item>Hunter Hat</item>
+        <item>Knight\'s Wig</item>
+        <item>Madman Hood</item>
+        <item>Maria Hunter Cap</item>
+        <item>Mensis\' Cage</item>
+        <item>Old Hunter Cap</item>
+        <item>Old Hunter Top Hat</item>
+        <item>One Eyed Iron Helm</item>
+        <item>Rumpled Yharnam Hat</item>
+        <item>Tomb Prospector Hood</item>
+        <item>Top Hat</item>
+        <item>White Church Hat</item>
+        <item>Yahar\'gul Iron Helm</item>
+        <item>Yamamura Hunter Hat</item>
+        <item>Yharnam Hunter Hat</item>
+    </string-array>
+
+
+    <string-array name="chest_armor">
+        <item>None</item>
+        <item>Ashen Hunter Garb</item>
+        <item>Beast Hide Garb</item>
+        <item>Black Church Garb</item>
+        <item>Bone Ash Armor</item>
+        <item>Butcher Garb</item>
+        <item>Cainhurst Armor</item>
+        <item>Charred Hunter Garb</item>
+        <item>Choir Garb</item>
+        <item>Constable\'s Garb</item>
+        <item>Crowfeather Garb</item>
+        <item>Decorative Old Hunter Garb</item>
+        <item>Doll Clothes</item>
+        <item>Executioner Garb</item>
+        <item>Foreign Garb</item>
+        <item>Gascoigne\'s Garb</item>
+        <item>Gehrman\'s Hunter Garb</item>
+        <item>Graveyard Robe</item>
+        <item>Harrowed Garb</item>
+        <item>Henryk\'s Hunter Garb</item>
+        <item>Hunter Garb</item>
+        <item>Hunter Garb (2)</item>
+        <item>Khaki Haori</item>
+        <item>Knight\'s Garb</item>
+        <item>Madman Garb</item>
+        <item>Maria Hunter Garb</item>
+        <item>Noble Dress</item>
+        <item>Old Hunter Garb</item>
+        <item>Student Uniform</item>
+        <item>Student Unifrom Variant</item>
+        <item>Sweaty Clothes</item>
+        <item>Tomb Prospector Garb</item>
+        <item>White Church Garb</item>
+        <item>Yahar\'gul Black Garb</item>
+        <item>Yharnam Hunter Garb</item>
+    </string-array>
+
+
+    <string-array name="hand_armor">
+        <item>None</item>
+        <item>Ashen Hunter Gloves</item>
+        <item>Bloodied Arm Bands</item>
+        <item>Bone Ash Gauntlets</item>
+        <item>Butcher Gloves</item>
+        <item>Cainhurst Gauntlets</item>
+        <item>Charred Hunter Gloves</item>
+        <item>Choir Gloves</item>
+        <item>Constable\'s Gloves</item>
+        <item>Crowfeather Manchettes</item>
+    </string-array>
+
+
+    <string-array name="leg_armor">
+        <item>None</item>
+        <item>Arianna\'s Shoes</item>
+        <item>Ashen Hunter Trousers</item>
+        <item>Black Church Trousers/Dress</item>
+        <item>Bloodied Trousers</item>
+        <item>Bone Ash Leggings</item>
+
+    </string-array>
+
+
+    <string-array name="runes">
+        <item>No Rune</item>
+        <item>Anti-Clockwise Metamorphosis (1)</item>
+        <item>Anti-Clockwise Metamorphosis (2)</item>
+        <item>Anti-Clockwise Metamorphosis (3)</item>
+        <item>Arcane Lake (1)</item>
+        <item>Arcane Lake (2)</item>
+        <item>Arcane Lake (3)</item>
+        <item>Beast (1)</item>
+        <item>Beast (2)</item>
+        <item>Beast (3)</item>
+        <item>Blood Rapture (1)</item>
+        <item>Blood Rapture (2)</item>
+        <item>Blood Rapture (3)</item>
+        <item>Clawmark (1)</item>
+        <item>Clawmark (2)</item>
+        <item>Clawmark (3)</item>
+        <item>Clear Deep Sea (1)</item>
+        <item>Clear Deep Sea (2)</item>
+        <item>Clear Deep Sea (3)</item>
+        <item>Clockwise Metamorphosis (1)</item>
+        <item>Clockwise Metamorphosis (2)</item>
+        <item>Clockwise Metamorphosis (3)</item>
+        <item>Communion (1)</item>
+        <item>Communion (2)</item>
+        <item>Communion (3)</item>
+        <item>Deep Sea (1)</item>
+        <item>Deep Sea (2)</item>
+        <item>Deep Sea (3)</item>
+        <item>Dissipating Lake (1)</item>
+        <item>Dissipating Lake (2)</item>
+        <item>Eye (1)</item>
+        <item>Eye (2)</item>
+        <item>Eye (3)</item>
+        <item>Fading Lake (1)</item>
+        <item>Fading Lake (2)</item>
+        <item>Formless Oedon (1)</item>
+        <item>Formless Oedon (2)</item>
+        <item>Formless Oedon (3)</item>
+        <item>Great Deep Sea (1)</item>
+        <item>Great Deep Sea (2)</item>
+        <item>Great Lake (1)</item>
+        <item>Great Lake (2)</item>
+        <item>Great Lake (3)</item>
+        <item>Guidance</item>
+        <item>Lake (1)</item>
+        <item>Lake (2)</item>
+        <item>Lake (3)</item>
+        <item>Moon (1)</item>
+        <item>Moon (2)</item>
+        <item>Moon (3)</item>
+        <item>Oedon Writhe (1)</item>
+        <item>Oedon Writhe (2)</item>
+        <item>Oedon Writhe (3)</item>
+        <item>Stunning Deep Sea (1)</item>
+        <item>Stunning Deep Sea (2)</item>
+    </string-array>
+
+
+    <string-array name="oath_rune">
+        <item>No Rune</item>
+        <item>Beast\'s Embrace</item>
+        <item>Corruption</item>
+        <item>Hunter</item>
+        <item>Impurity</item>
+        <item>Milkweed</item>
+        <item>Radiance</item>
+    </string-array>
+
+    <!-- dummy values -->
+
+            <string-array name="_right_hand_weapons">
+                <item>Bare Fists</item>
+                <item>Amygdalan Arms</item>
+                <item>Beast Claw</item>
+                <item>Beast Cutter</item>
+            </string-array>
+
+
+            <string-array name="_left_hand_weapons">
+                <item>Bare Fists</item>
+                <item>Cannon</item>
+            </string-array>
+
+
+            <string-array name="_origins">
+                <item>MilqueToast</item>
+                <item>Lone Survivor</item>
+                <item>Troubled Childhood</item>
+                <item>Violent Past</item>
+                <item>Professional</item>
+                <item>Military Veteran</item>
+                <item>Noble Scion</item>
+                <item>Cruel Fate</item>
+                <item>Waste of Skin</item>
+            </string-array>
+
+
+            <string-array name="_head_armor">
+                <item>None</item>
+                <item>Beak Mask</item>
+                <item>Black Church Hat</item>
+            </string-array>
+
+
+            <string-array name="_chest_armor">
+                <item>None</item>
+                <item>Ashen Hunter Garb</item>
+                <item>Beast Hide Garb</item>
+                <item>Black Church Garb</item>
+            </string-array>
+
+
+            <string-array name="_hand_armor">
+                <item>None</item>
+                <item>Ashen Hunter Gloves</item>
+                <item>Bloodied Arm Bands</item>
+                <item>Bone Ash Gauntlets</item>
+            </string-array>
+
+
+            <string-array name="_leg_armor">
+                <item>None</item>
+                <item>Arianna\'s Shoes</item>
+                <item>Ashen Hunter Trousers</item>
+            </string-array>
+
+
+            <string-array name="_runes">
+                <item>No Rune</item>
+                <item>Anti-Clockwise Metamorphosis (3)</item>
+                <item>Arcane Lake (3)</item>
+                <item>Beast (3)</item>
+                <item>Clawmark (3)</item>
+            </string-array>
+
+
+            <string-array name="_oath_rune">
+                <item>No Rune</item>
+                <item>Beast\'s Embrace</item>
+                <item>Corruption</item>
+                <item>Hunter</item>
+                <item>Impurity</item>
+                <item>Milkweed</item>
+                <item>Radiance</item>
+            </string-array>
+</resources>
